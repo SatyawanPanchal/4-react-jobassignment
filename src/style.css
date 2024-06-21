@@ -1,0 +1,59 @@
+body{
+
+}
+
+.menu_container{
+     
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    height: 7vh;
+    align-items: center;
+}
+
+.menu_container button{
+    border: none;
+    background: rgb(74, 20, 20);
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+  
+    
+
+}
+.menu_container button:hover
+{
+    font-size: 14px;
+    text-decoration: solid;
+    background-color: rgb(224, 173, 173);
+    border-radius: 2px;
+    color: black;
+    border-radius: 5px;
+}
+
+.duty_container{
+    display: flex;
+    justify-content: center;
+}
+
+.single_duty{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 90vw;
+}
+
+.single_duty p
+{
+    height: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+.title{
+    display: flex;
+  
+    justify-content: center;
+    height: 15vh;
+}
