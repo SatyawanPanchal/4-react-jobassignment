@@ -1,5 +1,6 @@
 body{
-
+        background-color: rgb(249, 249, 208);
+         
 }
 
 .menu_container{
@@ -9,14 +10,20 @@ body{
     justify-content: center;
     height: 7vh;
     align-items: center;
+    font-weight: 600;
 }
 
 .menu_container button{
     border: none;
-    background: rgb(74, 20, 20);
-    text-decoration: underline;
+   
+    background-color: rgb(224, 173, 173);
+    color: black;
+    height: 35px;
+    padding: 10px;
+    letter-spacing: 1.5px; 
+    
     cursor: pointer;
-    color: white;
+   
     border-radius: 5px;
   
     
@@ -26,9 +33,11 @@ body{
 {
     font-size: 14px;
     text-decoration: solid;
-    background-color: rgb(224, 173, 173);
+    background: rgb(74, 20, 20);
+    color: white;
+    
     border-radius: 2px;
-    color: black;
+    
     border-radius: 5px;
 }
 
@@ -53,7 +62,9 @@ body{
 }
 .title{
     display: flex;
+    color:  rgb(74, 20, 20);
+    font-size: larger;
   
     justify-content: center;
-    height: 15vh;
+    height: 5vh;
 }

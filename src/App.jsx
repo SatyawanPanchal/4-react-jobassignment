@@ -12,7 +12,7 @@ const App = () => {
 
   const [jobs,setJobs]=useState([])
   const[loading,setLoading]=useState(true)
-  const [currentItem,setCurrentItem]=useState(0)
+  const [currentItem,setCurrentItem]=useState(1)
 
   useEffect( ()=> {
     async function  fetchJobs()
